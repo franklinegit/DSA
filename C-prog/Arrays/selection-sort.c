@@ -14,6 +14,7 @@ void SelectionSort(int arr[], int size)
     /* swaps it with the leftmost unsorted element, and moves the sublist boundaries one element to the right. */
     int i = 0, j = 0, min_idx = 0, temp = 0;
 
+    printf("Selection sorting the array...\n");
     for (i = 0; i < size -1; i++)
     {
         /* Outer loop moves the boundary of the unsorted subarray. */
@@ -31,4 +32,5 @@ void SelectionSort(int arr[], int size)
         arr[min_idx] = i;
         arr[i] = temp;
     }
+    printf("Selection sorting Done.\n\n");
 }
