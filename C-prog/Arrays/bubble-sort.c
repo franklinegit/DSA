@@ -14,6 +14,7 @@ void BubbleSort(int arr[], int size)
     It continues this process until the list is sorted. */
     int i =0, j = 0, temp = 0;
     
+    printf("Selection sorting the array...\n");
     for (i = 0; i < size - 1; i++)
     {
         for (j = 0; j < size - i - 1; j++)
@@ -27,4 +28,5 @@ void BubbleSort(int arr[], int size)
             }
         }
     }
+    printf("Selection sorting Done.\n\n");
 }
